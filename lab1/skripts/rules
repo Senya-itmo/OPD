@@ -1,0 +1,49 @@
+cd lab0
+
+chmod u=wr,g=w,o=w gallade4
+
+chmod 440 klang0
+chmod 444 lickitung8
+chmod 700 minccino1
+
+#папка minccino1
+cd minccino1
+chmod u=wx,go=x pignite 
+
+chmod 404 blaziken
+chmod 444 jellicent
+
+cd ..
+chmod u=rx,g=w,o=r sawsbuck3
+
+#папка sawsbuck3
+cd sawsbuck3
+
+chmod 751 machoke
+chmod 444 croagunk
+
+chmod ugo=rwx monferno
+#chmod 777 monferno
+
+chmod 600 solosis
+#^rw for u and 00 for go
+chmod 006 kricketune
+
+cd ..
+chmod 570 skiploom8
+
+#папка skiploom8
+cd skiploom8
+chmod 444 klinklang
+chmod 640 bronzong
+
+chmod u=rwx,go=wx togekiss
+
+chmod u=wx,g=x,o=w probopass
+
+chmod 060 torterra
+chmod u=rw,g=w,o=r quilava
+
+echo Изменены права для файлов и папок. 
+
+

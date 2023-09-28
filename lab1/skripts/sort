@@ -1,0 +1,35 @@
+echo Рекурсивно подсчитать количество символов содержимого файлов из директории lab0. Вывод ошибок 
+#вывод через -exec вместо моего любимого xargs
+find lab0 -type f -exec grep s$ {} + 2>&1 1>/tmp/alhim
+echo 
+echo
+
+echo Вывести четыре первых элемента рекурсивного списка имен и атрибутов файлов в директории lab0, содержащих строку "to", список отсортировать по возрастанию даты изменения записи о файле
+find lab0 -type f -exec grep -l "to" {} + 2>/tmp/alhim | xargs ls -lt | head -n 4
+echo 
+echo 
+
+echo Вывести содержимое файлов с номерами строк в директории skiploom8, оставить только строки, содержащие "ron", регистр символов игнорировать
+#старая команда
+#find lab0/skiploom8 | xargs grep -in "ron"* 2> /tmp/alhim
+#новая команда
+find lab0/skiploom8 -type f -exec grep -in ron {} + 2> /tmp/alhim
+echo 
+echo
+
+echo Вывести рекурсивно список имен и атрибутов файлов в директории sawsbuck3, список отсортировать по возрастанию даты изменения записи о файле
+ls -Rlt lab0/sawsbuck3 2> /tmp/alhim
+echo
+echo 
+
+echo Вывести содержимое файлов в директории minccino1, строки отсортировать по имени a-z
+#старая команда 
+#find lab0/minccino1 | xargs cat | sort
+#новая команда
+find lab0/minccino1 -type f -exec sort {} +
+echo 
+echo 
+
+echo Вывести рекурсивно список имен и атрибутов файлов в директории lab0, начинающихся на символ 'p'
+ls -Rtl 2>/dev/null | grep -E '^.{49}p'
+

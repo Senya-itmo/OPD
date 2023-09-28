@@ -1,0 +1,33 @@
+mkdir lab0
+cd lab0
+
+touch gallade4
+touch klang0
+touch lickitung8
+
+mkdir minccino1
+cd minccino1
+mkdir pignite
+touch blaziken
+touch jellicent
+cd ..
+
+mkdir sawsbuck3
+cd sawsbuck3
+mkdir machoke
+touch croagunk
+mkdir monferno
+touch solosis
+touch kricketune
+cd ..
+
+mkdir skiploom8
+cd skiploom8
+touch klinklang 
+touch bronzong
+mkdir togekiss
+mkdir probopass
+touch torterra
+touch quilava
+
+echo Папка lab0 создана!

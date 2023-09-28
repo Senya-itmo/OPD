@@ -1,0 +1,30 @@
+
+cd lab0
+rm gallade4
+
+cd minccino1
+chmod u+w jellicent
+rm jellicent
+#меняем права на файл тк не можем его удалить
+cd .. 
+
+rm -rf Copy_*
+
+chmod u+w sawsbuck3
+cd sawsbuck3
+chmod u+w croagunklickitu*
+rm croagunklickitu*
+cd .. 
+chmod u-w sawsbuck3
+
+
+chmod u+r minccino1/pignite
+rm -rf minccino1
+
+chmod u+wr skiploom8
+cd skiploom8
+rmdir probopass
+
+echo нужные файлы удалены
+
+

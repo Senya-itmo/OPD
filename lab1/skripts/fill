@@ -1,0 +1,44 @@
+cd lab0
+
+#≠
+
+echo -e "Xоды Body Slam Defense Curl Double-Edge Drain Punch Dual\nChop Fire Punch Focus Punch Fury Cutter Helping Hand Hyper Voice Ice\nPunch Knock Off Leaf Blade≠ Low Kick Magic Coat Magic Room Mud-Slap\nNight Slash≠ Pain Split Recycle Role Play Shock Wave Signal Beam Skill\nSwap Sleep Talk Snatch Snore Swift hunderpunch Trick Vacuum Wave\nWonder Room Zen Headbutt" > gallade4
+
+echo Живет Cave Urban > klang0
+
+echo -e "Ходы\nAqua Tail Bind Counter Double-Edge Dynamicpunch Fire Punch Focus Punch\nIce Punch Icy Wind Iron Tail Knock Off Mega Kick Mega Punch Mud-Slap\nSeismic Toss Shock Wave Sleep Talk Snore Thunderpunch Water Pulse Zen\nHeadbutt" > lickitung8
+
+
+
+#папка minccino1
+cd minccino1
+
+echo -e "Xоды Blast Burn Body Slam Bounce Counter\nDouble-Edge Dual Chop Dynamicpunch Fire Pledge Fire Punch≠ Focus Punch\nFury Cutter Heat Wave Helping Hand Hi Jump Kick≠ Knock Off Last Resort\nLow Kick Magic Coat Mega Kick Mega Punch Mirror Move Mud-Slap Rock\nClimb Role Play Seismic Toss Sleep Talk Snore Superpower Swift\nThunderpunch Vacuum Wave" > blaziken
+
+echo -e "Тип покемона WATER\nGHOST" > jellicent
+cd ..
+
+
+#папка sawsbuck3
+cd sawsbuck3
+
+echo -e "Способности Astonish Mud-Slap Poison Sting Taunt\nPursuit Faint Attack Revenge Swagger Mud Bomb Sucker Punch Venoshock\nNasty Plot Poison Jab Sludge Bomb Flatter" > croagunk
+
+echo -e "Способности\nPsywave Reflect Rollout Snatch Hidden Power Light Screen Charm Recover\nPsyshock Endeavor Future Sight Pain Split Psychic Skill Swap Heal\nBlock Wonder Room" > solosis
+
+echo -e "Способности Fury Cutter Leech Life Sing\nFocus Energy Slash X-Scissor Screech Taunt Night Slash Bug Buzz Perish\nSong" > kricketune 
+ 
+cd ..
+
+#папка skiploom8
+cd skiploom8
+
+echo satk=7 sdef 9 spd=9 > klinklang
+
+echo -e "satk=8 sdef=12\nspd=3" > bronzong
+
+echo -e "Xоды Block Bullet Seed Earth Power Frenzy Plant Giga\nDrain Grass Pledge Earth Power Iron Head Iron Tail Mud-Slap Natural\nGift Outrage Rock Climb Secret Power Seed Bomb Sleep Talk Snore\nStealth Rock Superpower Synthesis Wood Hammer≠ Worry Seed" > torterra
+
+echo -e "Тип\nдиеты Carnivore" > quilava
+
+echo Файлы заполнены!

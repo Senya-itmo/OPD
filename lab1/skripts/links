@@ -1,0 +1,25 @@
+cd lab0
+
+chmod u+w skiploom8
+cd skiploom8
+ln -s ../klang0 quilavaklang
+cd ..
+chmod u-w skiploom8
+
+chmod u+r sawsbuck3/kricketune
+chmod u+w sawsbuck3
+cp -a sawsbuck3 minccino1/pignite
+chmod u-r sawsbuck3/kricketune
+
+ln lickitung8 sawsbuck3/croagunklickitung
+
+chmod u+w skiploom8/klinklang sawsbuck3/croagunk
+cat skiploom8/klinklang sawsbuck3/croagunk > klang0_60
+chmod u-w skiploom8/klinklang sawsbuck3/croagunk
+chmod u-w sawsbuck3
+
+cp gallade4 minccino1/pignite
+
+ln -s minccino1 Copy_30
+
+echo Сделали ссылки и копии
