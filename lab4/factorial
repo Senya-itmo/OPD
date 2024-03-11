@@ -1,0 +1,31 @@
+ORG 0
+
+X: WORD 0
+STEP: WORD 0
+RES: WORD 1
+
+SUMM:		
+		ST STEP
+		LD #0
+		SUMM_BY_STEPS:
+				ADD RES
+				LOOP STEP
+				BR SUMM_BY_STEPS
+		ST RES
+		RET	
+
+FACTORIAL: 
+				ST X
+				DOSTEP:
+							LD X
+							CALL SUMM
+							LOOP X
+							BR DOSTEP
+				LD RES
+				RET
+
+
+START:
+				LD #5
+				CALL FACTORIAL
+				HLT			
